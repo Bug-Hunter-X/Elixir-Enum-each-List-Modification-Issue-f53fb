@@ -1,0 +1,2 @@
+# Elixir Enum.each List Modification
+This example demonstrates a common misconception when working with lists and Enum.each in Elixir.  Attempting to modify the list directly within the loop does not alter the original list.  The solution involves using Enum.filter or other methods to create a new list reflecting the desired changes.  See bug.exs and bugSolution.exs for examples.
